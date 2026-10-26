@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "help-ai",
+  "version": "${version}",
+  "name": "Help AI",
+  "description": "Adds the /help ai command. Replies: READY TO HELP ALWAYS",
+  "authors": ["You"],
+  "license": "MIT",
+  "icon": "assets/help-ai/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.helpai.HelpAiMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.1.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
